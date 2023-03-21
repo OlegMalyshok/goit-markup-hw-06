@@ -447,7 +447,7 @@
         <form class="modal-form form">
           <div class="form-group">
             <label class="form-label">
-              <span>Name</span>
+              <span class="form-tittle">Name</span>
               <div class="form-control">
                 <input
                   type="text"
@@ -456,7 +456,7 @@
                   name="fullname"
                   required
                 />
-                <svg class="form-icon" width="18px" height="24px">
+                <svg class="form-icon" width="18px" height="18px">
                   <use href="./images/sprite.svg#icon-icon-person"></use>
                 </svg>
               </div>
@@ -465,7 +465,7 @@
 
           <div class="form-group">
             <label class="form-label">
-              <span>Phone</span>
+              <span class="form-tittle">Phone</span>
               <div class="form-control">
                 <input
                   type="tel"
@@ -474,7 +474,7 @@
                   name="tel"
                   required
                 />
-                <svg class="form-icon" width="18px" height="24px">
+                <svg class="form-icon" width="18px" height="18px">
                   <use href="./images/sprite.svg#icon-icon-phone"></use>
                 </svg>
               </div>
@@ -482,7 +482,7 @@
           </div>
           <div class="form-group">
             <label class="form-label">
-              <span>Email</span>
+              <span class="form-tittle">Email</span>
               <div class="form-control">
                 <input
                   type="email"
@@ -491,7 +491,7 @@
                   name="email"
                   required
                 />
-                <svg class="form-icon" width="18px" height="24px">
+                <svg class="form-icon" width="18px" height="18px">
                   <use href="./images/sprite.svg#icon-icon-mail"></use>
                 </svg>
               </div>
@@ -500,28 +500,28 @@
 
           <div class="form-group">
             <label class="form-label">
-              <span>Comment</span>
+              <span class="form-tittle">Comment</span>
               <textarea
                 name="comment"
                 class="form-textarea"
                 placeholder="Text input"
               ></textarea>
             </label>
-            <div class="form-box">
-              <label class="checkbox-label">
-                <input
-                  type="checkbox"
-                  class="form-check visually-hidden"
-                  name="user-police"
-                /><span class="checkbox-icon"></span>
-                <span class="checkbox-text">
-                  accept the terms and conditions of the
-                  <a href="">Privacy Policy</a></span
-                >
-              </label>
-            </div>
-            <button type="submit" class="form-btn">Send</button>
           </div>
+          <div class="form-box">
+            <label class="checkbox-label">
+              <input
+                type="checkbox"
+                class="form-check visually-hidden"
+                name="user-police"
+              /><span class="checkbox-icon"></span>
+              <span class="checkbox-text">
+                accept the terms and conditions of the
+                <a href="" class="checkbox-policy">Privacy Policy</a></span
+              >
+            </label>
+          </div>
+          <button type="submit" class="form-btn">Send</button>
         </form>
       </div>
     </div>

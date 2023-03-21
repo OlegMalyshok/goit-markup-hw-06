@@ -489,7 +489,6 @@ body {
 .footer-container {
   display: flex;
   flex-direction: row;
-  gap: 120px;
 }
 .footer {
   background: #2e2f42;
@@ -522,6 +521,11 @@ body {
 .footer-container-logo {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
+}
+
+.footer-social {
+  margin-right: 80px;
 }
 
 .footer-social-text {
@@ -581,12 +585,14 @@ body {
   border: 1px solid #ffffff;
   background-color: #2e2f42;
   border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
   color: #ffffff;
-  padding-left: 16px;
-  padding-top: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -802,7 +808,7 @@ body {
 .modal {
   width: 408px;
   min-height: 584px;
-  padding: 72px 24px 24px 24px;
+  padding: 67px 24px 29px 24px;
 }
 
 .modal-button-close {
@@ -853,14 +859,29 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input::placeholder {
-  color: #8e8f99;
-}
-
-.form-label span {
-  display: block;
+.form-tittle {
   color: #8e8f99;
   margin-bottom: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17px;
+  letter-spacing: 0.04em;
+}
+
+.form-textarea::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17px;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.form-label {
+  display: block;
 }
 
 .form-textarea {
@@ -968,4 +989,7 @@ body {
   border-color: #404bbf;
 }
 
+.checkbox-policy {
+  color: #4d5ae5;
+}
 /* Modal */
