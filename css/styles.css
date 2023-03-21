@@ -937,7 +937,7 @@ body {
 .form-check:checked + .checkbox-icon {
   border-color: transparent;
   background-color: #404bbf;
-  background-image: url(/images/click.svg);
+  background-image: url(../images/click.svg);
   background-size: contain;
   background-origin: border-box;
 }
